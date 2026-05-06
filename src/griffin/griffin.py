@@ -1,4 +1,14 @@
-# from jaxtyping import Array, Float32
+# This implementation of the Griffin architecture is adapted from:
+# https://github.com/knotgrass/Griffin
+#
+# NOTE: The original code contained several bugs and has been modified 
+# by the authors of PG-MPN to ensure correct functionality and 
+# integration with our framework.
+#
+# Original Author: knotgrass
+# Modifications: Bug fixes in Real_Gated_Linear_Recurrent_Unit and 
+# optimization for complex query answering tasks.
+
 import torch
 import torch.nn.functional as F
 from torch import nn, Tensor
