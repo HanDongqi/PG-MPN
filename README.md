@@ -12,8 +12,12 @@ If you find our code or paper useful for your research, please kindly cite our w
   title={Complex Query Answering on Knowledge Graphs with Griffin and Polarity-Weighted Message Passing},
   author={Han, Dongqi and Zhang, Yao and Li, Fanghao and Lu, Hu and Wu, Shengli},
   journal={Knowledge and Information Systems},
+  volume={68},
+  number={1},
+  pages={140},
   year={2026},
-  publisher={Springer}
+  publisher={Springer},
+  doi={10.1007/s10115-026-02770-w}
 }
 ```
 *(Note: The BibTeX will be updated with volume/page numbers once officially published online.)*
